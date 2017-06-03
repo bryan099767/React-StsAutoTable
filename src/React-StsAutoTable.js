@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './reactStsAutoTable.css'
 
 class StsAutoTableRows extends React.Component {
     
@@ -118,3 +119,4 @@ class StsAutoTable extends React.Component {
         );
     }
 }
+export default StsAutoTable
